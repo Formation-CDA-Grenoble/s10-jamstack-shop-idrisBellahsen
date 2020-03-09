@@ -11,7 +11,7 @@ const App = () =>
     <Container>
       <Switch>
         <Route exact path='/' component={ProductList} />
-        <Route exact path='/article/:slug' component={Article} />
+        <Route exact path='/product/:slug' component={Product} />
       </Switch>
     </Container>
   </BrowserRouter>
